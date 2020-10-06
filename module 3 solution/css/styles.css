@@ -1,0 +1,26 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color:white;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+/** Header **/
+#header-nav{
+    background-color: coral;
+    border-radius: 1%;
+    border: 0;
+}
+#header-nav h1:hover, #header-nav h1:focus{
+    background: grey;
+}
+#header-nav h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#header-nav{
+    padding-bottom: 20px;
+}
