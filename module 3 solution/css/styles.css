@@ -1,26 +1,60 @@
 body {
     font-size: 16px;
-    color: #fff;
+    color:black;
     background-color:white;
     font-family: 'Oxygen', sans-serif;
   }
 
 /** Header **/
 #header-nav{
-    background-color: coral;
+    background-color: cornflowerblue;
     border-radius: 1%;
     border: 0;
 }
 #header-nav h1:hover, #header-nav h1:focus{
-    background: grey;
+    text-decoration: none;
 }
 #header-nav h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 4em;
     text-transform: uppercase;
     font-weight: bold;
+    text-shadow: 1px 1px black;
+    margin-bottom: 20px;
+    color: burlywood;
 }
-
-#header-nav{
-    padding-bottom: 20px;
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -80px;
+  }
+button.navbar-toggle{
+    height: 50px;
+}
+#nav-list .category{
+    font-size: 2em;
+    text-shadow: 1px 1px grey;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: burlywood;
+}
+/** Main Content **/
+.h2, h2{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.h3, h3{
+    font-size: 1.5em;
+    text-align: center;
+}
+section {
+    border: 1 px;
+    border-radius: 4px;
+    border-color: black;
+    background-color: lightgrey;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
